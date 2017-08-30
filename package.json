@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "test changelog",
   "scripts": {
-    "release": "standard-version",
+    "release": "standard-version && git push origin && git push --tags",
     "major-release": "standard-version -r major",
     "minor-release": "standard-version -r minor",
     "patch-release": "standard-version -r patch",
