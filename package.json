@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "test changelog",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:alekzonder/test.git",
+  "author": "alekzonder <alekzonder@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "standard-version": "^4.2.0"
+  }
+}
