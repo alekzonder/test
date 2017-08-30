@@ -1,13 +1,13 @@
 {
   "name": "test",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "test changelog",
   "scripts": {
     "release": "standard-version",
     "major-release": "standard-version -r major",
     "minor-release": "standard-version -r minor",
     "patch-release": "standard-version -r patch",
-    "pre-release":  "standard-version --prerelease"
+    "pre-release": "standard-version --prerelease"
   },
   "main": "index.js",
   "repository": "git@github.com:alekzonder/test.git",
