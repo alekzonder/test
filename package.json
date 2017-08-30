@@ -7,7 +7,8 @@
     "major-release": "standard-version -r major",
     "minor-release": "standard-version -r minor",
     "patch-release": "standard-version -r patch",
-    "pre-release": "standard-version --prerelease"
+    "pre-release": "standard-version --prerelease",
+    "postversion": "git push origin && git push --tags"
   },
   "main": "index.js",
   "repository": "git@github.com:alekzonder/test.git",
